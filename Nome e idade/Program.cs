@@ -25,7 +25,7 @@ namespace Nome_e_idade
 
             mediaIdade = (idade1 + idade2) / 2.0;
 
-            Console.WriteLine("A idade média de " + nome1 + " e " + nome2 + " é de " + mediaIdade.ToString("F1", CultureInfo.InvariantCulture) + " anos");
+            Console.WriteLine("A idade média de " + nome1 + " e " + nome2 + " é de " + mediaIdade.ToString("F1", CultureInfo.InvariantCulture) + " anos.");
             Console.ReadLine();
         }
     }
