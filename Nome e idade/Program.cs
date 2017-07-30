@@ -8,7 +8,6 @@ namespace Nome_e_idade
         static void Main(string[] args)
         {
             string nome1, nome2;
-            int idade1, idade2;
             double mediaIdade;
 
             string[] dados1;
@@ -18,10 +17,10 @@ namespace Nome_e_idade
             dados2 = Console.ReadLine().Split(' ');
 
             nome1 = dados1[0];
-            idade1 = int.Parse(dados1[1]);
+            int idade1 = int.Parse(dados1[1]);
 
             nome2 = dados2[0];
-            idade2 = int.Parse(dados2[1]);
+            int idade2 = int.Parse(dados2[1]);
 
             mediaIdade = (idade1 + idade2) / 2.0;
 
